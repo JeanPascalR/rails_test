@@ -1,0 +1,23 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+textarea#article_text{
+	height: 448px;
+    width: 904px;
+    font-size: 0.85em;
+}
+
+textarea#commentaire_corp{
+	height: 224px;
+    width: 904px;
+    font-size: 0.85em;
+}
+
+input#article_title{
+	width: 904px;
+	font-size: 0.85em;
+}

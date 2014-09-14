@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html, body{
+	margin: 0;
+	padding: 0;
+    background-color : #F2F2F2;
+}
+
+header{
+	background-color: #2C3E50;
+	color: #E74C3C;
+	margin: 10px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+	text-align: center;
+}
+
+header h1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 3em;
+	display:inline-block;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+	padding: 0;
+}
+
+section{
+	background-color: #FFFFFF;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

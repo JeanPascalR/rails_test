@@ -1,0 +1,15 @@
+<div class="article">
+	<h2><%= @article.title %></h2>
+	<p><%= @article.text %></p>
+
+    <% if @article.commentaires.any? %>
+	<h4>Commentaires</h4>
+    <%= render @article.commentaires %>
+    <% end %>
+
+	<h4>Ajouter un commentaire :</h4>
+	<%= render "commentaires/form" %>
+
+	<%= link_to 'Back', articles_path %>
+    <%= link_to 'Edit', edit_article_path(@article) %>
+</div>
